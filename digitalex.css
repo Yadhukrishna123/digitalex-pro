@@ -155,7 +155,7 @@
 .third-contend h2 {
     position: absolute;
     margin-top: 35px;
-    margin-left: 25px;
+    margin-left: 55px;
     color: #f4b841;
     font-family: 'Poppins', sans-serif;
 
@@ -363,23 +363,33 @@
 
 .input-container {
     position: relative;
+
 }
 
 .input-container input {
     width: 100%;
     position: relative;
     margin-top: 350px;
-    margin-left: 280px;
-    padding: 20px 80px;
+    margin-left: 180px;
+    padding: 20px 150px;
     border: none;
-    border-radius: 20px;
+    border-radius: 30px;
     /* inline-size: 0px; */
 }
 
-.input-container button {
-    /* position: relative; */
-    margin-top: 350px;
-    margin-right: 500px;
+.seventh-contend-one {
+    position: relative;
+}
+
+.seventh-contend-one button {
+    position: absolute;
+    margin-top: 360px;
+    margin-left: 900px;
+    padding: 10px 25px;
+    border-radius: 35px;
+    border: none;
+    background-color: #f4b841;
+    cursor: pointer;
 }
 
 .eight-contend-one {
@@ -503,9 +513,18 @@
     margin-top: 20px;
     padding: 20px 20px;
     border-radius: 20px;
-    border: 1px solid rgb(186, 186, 186);
+    /* border: 1px solid rgb(186, 186, 186); */
     font-size: 20px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid rgb(186, 186, 186);
+    outline: none;
 
+}
+
+.inputs input:focus {
+    border: 1px solid rgb(186, 186, 186);
+    outline: none;
 }
 
 .message-input input {
@@ -514,7 +533,15 @@
     padding: 80px 20px;
     margin-left: 120px;
     border-radius: 20px;
+    border: none;
+
+    border-bottom: 1px solid rgb(186, 186, 186);
+    outline: none;
+}
+
+.message-input input:focus {
     border: 1px solid rgb(186, 186, 186);
+    outline: none;
 }
 
 .send-button {
